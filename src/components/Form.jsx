@@ -40,6 +40,7 @@ function Form() {
         <div className="input-group g-3">
           <div className="p-1 g-col-6">
             <input
+              required
               name="date"
               type="date"
               className="form-control"
@@ -49,6 +50,7 @@ function Form() {
           </div>
           <div className="p-1 g-col-6">
             <input
+              required
               name="description"
               type="text"
               className="form-control"
@@ -59,6 +61,7 @@ function Form() {
           </div>
           <div className="p-1 g-col-6">
             <input
+              required
               name="category"
               type="text"
               className="form-control"
@@ -69,6 +72,7 @@ function Form() {
           </div>
           <div className="p-1 g-col-6">
             <input
+              required
               name="amount"
               type="number"
               className="form-control"
